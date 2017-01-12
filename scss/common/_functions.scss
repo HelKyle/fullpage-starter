@@ -1,0 +1,12 @@
+@function rem($num, $base: 16) {
+    @return $num / $base * 1rem;
+}
+
+/// Make a context based selector a little more friendly
+/// @author Hugo Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+  #{$context} & {
+    @content;
+  }
+}

@@ -1,0 +1,18 @@
+@import "./common/_index.scss";
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: rem(16);
+    color: white;
+}
+.section-0 {
+    background: #3498db;
+}
+.section-1 {
+    background: #9b59b6;
+}
+.section-2 {
+    background: #e74c3c;
+}
